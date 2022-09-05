@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Your Birthday Lucky</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/27ddb48ed0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <div class="card">
+            <div class="card-header">
+              <h1>Is Your Birthday Lucky?</h1>
+              <p>Enter your Birth Date and Lucky Number</p>
+            </div>
+            <div class="card-body">
+              <div class="input-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="txtDob" />
+              </div>
+              <div class="input-group">
+                <label for="txtLuckyNo">Lucky Number:</label>
+                <input type="text" id="txtLuckyNo" />
+              </div>
+              <button class="btn" id="checkBtn">Check</button>
+            </div>
+            <div class="card-footer">
+              <strong>Privacy Notice:</strong> We do not store your information.
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="social">
+                <ul>
+                  <li>
+                    <a href="https://github.com/kumaratul60" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/atul-kumar-awasthi" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li>
+                    <a href="https://atultheportfolio.netlify.app" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" id="modal">
+          <div class="modal-content" id="content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+            </div>
+          </div>
+        </div>
+    
+</body>
+</html>
